@@ -40,7 +40,7 @@ def find_word(word):
 
 #  main program
 if __name__ == '__main__':
-    word = input()
+    word = input("Enter Word to search for : ")
     result = find_word(word)
 
     #  making the result more visible
